@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::: Position :::</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-size: 2rem;
+        }
+        .parent {
+            background-color: darkorange;
+            padding: .25rem;
+            height: 100%;
+        }
+        body {
+            /* height: 200vh; */
+        }
+        .child1 {
+            background-color: #AA1111;
+            padding: .25rem;
+            position: relative;
+            z-index: 60;
+            top: 10px;
+        }
+        .child2 {
+            background-color: #00AA88;
+            padding: .25rem;
+            position: relative;
+            z-index: 40;
+            top: -30px;
+
+        }
+        .child3 {
+            background-color: #7D889E;
+            padding: .25rem;
+            position: relative;
+            z-index: 20;
+            bottom: 50px;
+        }
+
+        .parent2 {
+            background-color: darkorchid;
+            padding: .25rem;
+            height: 100%;
+            position: relative;
+            z-index: 250;
+            top: 30px;
+        }
+
+        .parent2-child1 {
+            background-color: #00AA88;
+            padding: .25rem;
+            position: relative;
+            z-index: 100;
+        }
+        .parent2-child2 {
+            background-color: yellow;
+            padding: .25rem;
+            position: relative;
+        }
+        .parent2-child3 {
+            background-color: lightcoral;
+            padding: .25rem;
+            position: relative;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">Parent
+        <div class="child1">One</div>
+        <div class="child2">Two</div>
+        <div class="child3">Three</div>
+    </div>
+    <div class="parent2">Parent 2
+        <div class="parent2-child1">One</div>
+        <div class="parent2-child2">Two</div>
+        <div class="parent2-child3">Three</div>
+    </div>
+
+</body>
+</html>
