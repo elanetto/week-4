@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::: Position :::</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-size: 3rem;
+        }
+        .parent {
+            background-color: darkorange;
+            padding: .25rem;
+            /* top: 200px;
+            position: sticky; */
+        }
+        .child1 {
+            background-color: #AA1111;
+            padding: .25rem;
+            position: relative;
+            /* top: 80px;
+            left: 120px; */
+        }
+        .child2 {
+            background-color: #00AA88;
+            padding: .25rem;
+            position: absolute;
+            top: 30px;
+        }
+        .child3 {
+            background-color: #7D889E;
+            padding: .25rem;
+            position: fixed;
+        }
+        .child4 {
+            background-color: yellow;
+            padding: .25rem;
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">Parent
+        <div class="child1">One</div>
+        <div class="child2">Two</div>
+        <div class="child3">Three</div>
+        <div class="child4">Four</div>
+    </div>
+    <div class="text"></div>
+    <p>
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+        La la la la la la la la.
+    </p>
+</body>
+</html>
