@@ -12,6 +12,7 @@ body {
 header {
     background-color: brown;
     height: 56px;
+    color: white;
 }
 
 main, .side-menu, .main-content {
