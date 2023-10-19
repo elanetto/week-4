@@ -68,6 +68,43 @@ main {
 
 
 .main-content {
-    background-color: aqua;
+    background-color: black;
     flex-grow: 1;
+}
+
+.yt-video-holder {
+    width: 355px;
+}
+
+.yt-video-holder-main-image img {
+    height: 200px;
+    width: 355px;
+}
+
+.yt-video-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.under-video {
+    display: flex;
+    color: white;
+}
+
+.yt-video-profile-image {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.yt-video-account-name, .yt-video-views {
+    color: lightgray;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
 }
