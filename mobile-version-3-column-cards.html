@@ -18,39 +18,45 @@
         }
 
         body {
-            height: 100vh;
+            height: 100%;
         }
 
         .card-components {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100%;
+            margin-top: 250px;
         }
 
         .column-card {
-            width: 307px;
-            height: 500px;
             color: white;
             padding: 48px;
         }
 
         .card1 {
+            height: 500px;
+            width: 307px;
             background: #E28625;
             flex-shrink: 0;
             border-top-left-radius: 8px;
-            border-bottom-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
 
         .card2 {
+            height: 500px;
+            width: 307px;
             background-color: #006971;
             flex-shrink: 0;
         }
 
         .card3 {
+            height: 500px;
+            width: 307px;
             background-color: #004140;
             flex-shrink: 0;
-            border-top-right-radius: 8px;
+            border-bottom-left-radius: 8px;
             border-bottom-right-radius: 8px;
         }
 
@@ -58,6 +64,8 @@
             opacity: 75%;
             font-family: 'Lexend Deca', sans-serif;
             font-size: 15px;
+            line-height: 25px;
+            font-weight: 300;
         }
 
         .text-inside-box h1 {
@@ -108,14 +116,25 @@
             border-width: 1px;
         }
 
+        footer {
+            margin: 450px;
+            color: white;
+        }
+
             /*Small screens*/
         @media (min-width: 640px) {
         }
         /*Medium screens*/
         @media (min-width: 768px) {
+            
+            body {
+                height: 100%;
+            }
         }
+
         /*Desktop version*/
         @media (min-width: 920px) {
+
             
         }
         /*Extra Large screens*/
@@ -171,6 +190,9 @@
             </div>
         </div>
     </div>
+    <footer>
+        This is the footer
+    </footer>
 
 </body>
 </html>
